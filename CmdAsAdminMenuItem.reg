@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\directory\Background\Shell\runas]
+@="Open Command Window Here (Administrator)"
+
+[HKEY_CLASSES_ROOT\directory\Background\Shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas]
+@="Open Command Window Here (Administrator)"
+
+[HKEY_CLASSES_ROOT\Directory\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\runas]
+@="Open Command Window Here (Administrator)"
+
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\runas\command]
+@="cmd.exe"

@@ -1,0 +1,64 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Api]
+@="GitBash_Simpletire_Api"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Api\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=C:\\Projects\\simple\\api\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Backend]
+@="GitBash_Simpletire_Backend"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Backend\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=C:\\Projects\\simple\\backend\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Supplier]
+@="GitBash_Simpletire_Supplier"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Supplier\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=C:\\Projects\\simple\\backoffice\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Common]
+@="GitBash_Simpletire_Common"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Common\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=C:\\Projects\\simple\\common\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Frontend]
+@="GitBash_Simpletire_Frontend"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Frontend\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=C:\\Projects\\simple\\frontend\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Installer]
+@="GitBash_Simpletire_Installer"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Installer\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=C:\\Projects\\simple\\installer\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Inventory]
+@="GitBash_Simpletire_Inventory"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Inventory\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=C:\\Projects\\simple\\inventory\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Supplier]
+@="GitBash_Simpletire_Supplier"
+"Icon"="C:\\Program Files\\Git\\git-bash.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GitBash_Simpletire_Supplier\command]
+@="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=C:\\Projects\\simple\\supplier\""
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Open Git Aliases]
+@="Edit Git Aliases with Notepad++"
+"Icon"="C:\\Program Files\\Notepad++\\notepad++.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Open Git Aliases\command]
+@="C:\\Program Files\\Notepad++\\notepad++.exe \"C:\\Program Files\\Git\\etc\\profile.d\\aliases.sh\""

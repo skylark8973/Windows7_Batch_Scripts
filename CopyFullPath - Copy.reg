@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\CopyFullPath2]
+@="Copy Full Path Quoted"
+
+[HKEY_CLASSES_ROOT\*\shell\CopyFullPath2\command]
+@="cmd.exe /c (echo.|set /p=\"\"%1\"\") | clip"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CopyFullPath2]
+@="Copy Full Path Quoted"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CopyFullPath2\command]
+@="cmd.exe /c (echo.|set /p=\"\"%1\"\") | clip"
