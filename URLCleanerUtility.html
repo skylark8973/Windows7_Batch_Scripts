@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+</head>
+
+<body>
+    <form>
+        <input type="text" id="URL" name="URL" placeholder="Unclean URL here...">
+        <button onclick="getCoreUrl(document.getElementById('URL').value)">Clean URL</button>
+    </form>
+    <script type="text/javascript">
+        function getCoreUrl(url) {
+            url = url.split(/[?#]/)[0];
+            document.getElementById('URL').value = url;
+        }
+    </script>
+</body>
+
+</html>
