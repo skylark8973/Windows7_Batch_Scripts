@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\rename_any_single]
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\rename_any_single]
+@="&Movie Rename Any Single"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\rename_any_single\command]
+@="C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -File \"C:\\SysCmds\\MovieRenameAnySingleFinalv2.ps1\" \"%1\""
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\rename_any_single]
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\rename_any_single]
+@="&Movie Rename Any Single"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\rename_any_single\command]
+@="C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe -NoExit -File \"C:\\SysCmds\\MovieRenameAnySingleFinalv2.ps1\" \"%1\""
